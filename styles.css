@@ -1,11 +1,49 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+  font-family: 'SF Pro Display', 'Lato', Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+    color: #ffffff;
+    background-color: #444444;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 header {
     display: block;
     width: 100%;
     height: auto;
     margin: 0;
     padding: 0;
-    border-bottom: 1px solid #dcdcdc;
-    box-shadow: 0 4px 50px rgba(0,0,0,0.1);
+    border-bottom: 1px solid #222222;
+    background-color: #333333;
 }
 
 header nav {
