@@ -1,0 +1,26 @@
+header {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #dcdcdc;
+    box-shadow: 0 4px 50px rgba(0,0,0,0.1);
+}
+
+header nav {
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
