@@ -21,8 +21,6 @@ nav li {
     display: inline-block;
 }
 
-@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
-
 html,
 body {
   height: 100%;
@@ -32,7 +30,7 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
-  font-family: 'SF Pro Display', 'Times New Roman', Helvetica,  sans-serif;
+  font-family: 'SF Pro Display', Helvetica,  sans-serif;
   line-height: 1.5;
 }
 body {
