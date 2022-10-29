@@ -155,6 +155,12 @@ a:hover {
         max-width: 60rem;
     }
 }
+@media only screen and (min-width: 75em) { /* 1200px */
+    .container {
+        width: 100%;
+        max-width: 75rem;
+    }
+}
 
 /* -----| OTHER STYLING |----- */
 header {
